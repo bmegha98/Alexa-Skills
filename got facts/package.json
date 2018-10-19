@@ -1,0 +1,44 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "got facts",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me something new about got",
+                        "tell me Interesting facts of got",
+                        "tell me interesting facts of Game of thrones",
+                        "tell facts of got",
+                        "GOT",
+                        "tell unknown fact of game of thrones",
+                        "Any GOT fact",
+                        "Game of thrones "
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
